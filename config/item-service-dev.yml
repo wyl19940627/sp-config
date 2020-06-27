@@ -10,6 +10,10 @@ spring:
     port: 5672
     username: admin
     password: admin
+
+  zipkin:
+    sender:
+      type: rabbit
     
 server:
   port: 8001    
